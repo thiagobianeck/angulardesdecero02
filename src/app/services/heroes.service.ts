@@ -69,7 +69,7 @@ export class HeroesService {
 
   buscarHeroes(termino: string): Heroe[] {
 
-    let heroesArr:Heroe[] = [];
+    let heroesArr: Heroe[] = [];
     termino = termino.toLowerCase();
     for ( let heroe of this.heroes ) {
 
